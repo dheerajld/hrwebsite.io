@@ -1,0 +1,266 @@
+/*!
+ Theme Name:   WalkerNews
+ Theme URI:    https://walkerwp.com/walkernews/
+ Description:  This is the child theme for walkermag, WalkerNews is the magazine, news wordpress free theme which is suitable for blog, magazine, news portal, personal blog, travel blogs and magazine.
+ Author:       WalkerWP
+ Author URI:   https://walkerwp.com/
+ Template:     walkermag
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, grid-layout, blog, news, two-columns, three-columns, footer-widgets, sticky-post
+ Text Domain:  walkernews
+*/
+body, button, input, select, optgroup, textarea{
+    line-height: 1.5;
+}
+
+h3, h4, h5, h6 {
+    line-height: 1.3;
+}
+h1,h2{
+    line-height: 1.5;
+}
+.walkermag-footer-widget .widget-title:after{
+    background: var(--secondary-color) !important;
+}
+.walkermag-footer-widgets a:hover, 
+.walkermag-footer-widgets section.widget_recent_entries ul li a:hover, 
+.walkermag-footer-widget ul.walkermag-social li a:hover{
+    color:var(--secondary-color) !important;
+}
+.walkermag-wraper.featured-wraper .walkermag-container.full-width {
+    padding: 0 20px;
+}
+ul.nav-menu li.current-menu-item> a {
+    background: #fff;
+    color: var(--dark-color);
+}
+.walkermag-grid-3.featured-grid .walkermag-grid-12 {
+    margin: 0 0 20px;
+  /*  height: 290px;*/
+    overflow: hidden;
+}
+.featured-grid .walkerwp-featured-box{
+     height: 290px;
+     overflow: hidden;
+}
+.featured-slide .content-part h1, .featured-grid .content-part h3 {
+    margin: 5px 0 0;
+    line-height: 1.1em;
+}
+.walkermag-wraper.branding-wraper,
+.walkermag-wraper.branding-wraper.header-layout-2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.featured-slider:hover .walkermag-slide-prev {
+    left: 50px;
+}
+.featured-slider:hover .walkermag-slide-next {
+    right: 50px;
+}
+.main-navigation ul li a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.topbar-wraper ul.walkermag-social li a {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 18px;
+    line-height: 25px;
+    color: #000;
+    font-size: 14px;
+}
+ul.walkermag-social li {
+    display: inline-block;
+    margin: 0 0 0 1px;
+}
+.topbar-wraper ul.walkermag-social li a:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+.walkermag-wraper.topbar-wraper {
+    padding: 7px 0;
+}
+.site-header .branding-wraper {
+    padding: 25px 0;
+}
+.site-branding h1.site-title a:hover {
+    color: var(--secondary-color);
+}
+.featured-wraper span.category a {
+    background: var(--secondary-color);
+    border: 0;
+    padding: 2px 12px;
+}
+.featured-wraper span.category a:hover{
+    background: var(--primary-color);
+}
+span.category a {
+    color: var(--text-color);
+    padding: 0 10px 0 0;
+    border: 0; 
+   
+}
+span.category a:hover {
+    border:0;
+    color: var(--secondary-color);
+}
+.featured-wraper a.walkermag-post-date{
+    color: var(--secondary-color);
+}
+.featured-wraper a.walkermag-post-date:hover{
+    color: var(--light-color);
+
+}
+.double-category-style-two .category-content-grid span.category a {
+    background: var(--secondary-color);
+    padding: 2px 12px;
+}
+.double-category-style-two .category-content-grid a.walkermag-post-date {
+    color: var(--secondary-color);
+}
+.walkermag-container.box-layout .featured-grid .walkerwp-featured-box, 
+.walkermag-container.box-layout .featured-grid .walkermag-grid-6 {
+    height: 241px;
+}
+.single-catrgory-style-one .section-ads-image-bottom {
+    padding: 70px 0 0 15px;
+}
+.single-catrgory-style-one .walkermag-grid-9, 
+.single-catrgory-style-one .walkermag-grid-9 .walkermag-grid-8 {
+    padding: 0;
+}
+.single-catrgory-style-one .walkermag-grid-9 .walkermag-grid-4 {
+    padding-right: 0;
+}
+.single-catrgory-style-one .section-featured-image {
+    height: auto;
+    width: 100%;
+}
+.section-featured-image img,
+.section-featured-image {
+    border-radius: 0;
+
+}
+.section-sidebar-holder section.widget_media_image:first-child {
+    padding-top: 8px;
+}
+.single-catrgory-style-one .post-list {
+    margin-bottom: 15px;
+}
+.single-catrgory-style-one .post-list:hover img {
+    transform: scale(1.2);
+}
+.single-catrgory-style-one .post-list a.section-featured-image {
+    max-height: 180px;
+}
+.single-catrgory-style-one .post-list h5 a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.single-catrgory-style-one .post-list h5 {
+    margin: 7px 0 0;
+}
+.single-catrgory-style-one .post-list h5 a:hover {
+    color: var(--primary-color);
+}
+.featured-wraper.padding-top {
+    padding-top: 40px;
+}
+.single-catrgory-style-one .section-sidebar-holder {
+    padding-top: 24px;
+}
+.featured-slide:hover .walkermag-slide-prev, 
+.featured-slide:hover .walkermag-slide-next {
+    opacity: 1;
+}
+.featured-slide:hover .walkermag-slide-prev{
+    left:20px;
+}
+.featured-slide:hover .walkermag-slide-next {
+    right: 20px;
+}
+.walkermag-footer-widget ul.walkermag-social li a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    line-height: 28px;
+    margin: 0 0 4px;
+    text-align: center;
+    border-radius: 20px;
+}
+.global-sidebar ul.walkermag-social li {
+    width: auto;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.global-sidebar ul.walkermag-social li a,
+.section-sidebar-holder ul.walkermag-social li a{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 0 5px;
+}
+.section-sidebar-holder ul.walkermag-social li a{
+    color:var(--text-color);
+}
+.section-sidebar-holder ul.walkermag-social li a:hover{
+    color:var(--primary-color);
+}
+.section-sidebar-holder .widget-title {
+    margin-top: 0;
+}
+.walkermag-post-thumbnails a,
+.walkermag-post-thumbnails a img{
+    border-radius: 0;
+}
+.featured-grid.left-grid .walkermag-grid-12 {
+    padding-left: 0;
+}
+.featured-grid.right-grid .walkermag-grid-12 {
+    padding-right: 0;
+}
+@media(max-width:1230px){
+    .featured-grid.left-grid .walkermag-grid-12 {
+    padding-left: 15px;
+}
+.featured-grid.right-grid .walkermag-grid-12 {
+    padding-right: 15px;
+}
+}
+@media(max-width:767px){
+    .single-catrgory-style-one .walkermag-grid-9 .walkermag-grid-4 {
+        padding: 0;
+        margin: 20px 0 0;
+    }
+    .single-catrgory-style-one .walkermag-grid-12.post-list {
+        padding-right: 0;
+    }
+    .single-catrgory-style-one .post-list a.section-featured-image {
+        max-height: 100%;
+    }
+    .walkermag-wraper.no-gap.featured-wraper .walkermag-grid-3.featured-grid {
+        padding: 0;
+    }
+    .walkermag-wraper.featured-wraper .walkermag-container.full-width {
+        padding: 0;
+    }
+    .walkermag-grid-6.featured-slide {
+        padding: 0 15px;
+        margin: 20px 0;
+        background: transparent;
+    }
+    .featured-grid .walkermag-grid-12 {
+        padding-right: 15px;
+    }
+}

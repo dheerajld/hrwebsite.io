@@ -1,0 +1,35 @@
+
+/*Radio Image Button Ends */
+.customize-control-walkermag-radio-image img,
+#input_walkermag_header_layout img,
+#input_focus_news_layout img{
+    margin: 5px 0;
+    transition: all ease 0.23s;
+    border: 2px solid #f0f0f1;
+}
+.customize-control-walkermag-radio-image input,
+#input_walkermag_header_layout input,
+#input_focus_news_layout input{
+	display: none;
+}
+.customize-control-walkermag-radio-image img:hover, 
+.customize-control-walkermag-radio-image input:checked + img,
+#input_walkermag_header_layout img:hover,
+#input_walkermag_header_layout input:checked + img,
+#input_focus_news_layout img:hover,
+#input_focus_news_layout input:checked + img{
+    border: 2px solid #3498de;
+    box-shadow: 0 0 4px rgb(34 113 177 / 72%);
+}
+#input_walkermag_featured_layout,
+#input_walkermag_blog_post_view,
+#input_walkermag_blog_layout{
+    display: flex;
+    justify-content: space-between;
+}
+#input_walkermag_featured_layout label,
+#input_walkermag_blog_layout label,
+#input_walkermag_blog_post_view label,
+#input_focus_news_layout label {
+    padding: 0 4px;
+}

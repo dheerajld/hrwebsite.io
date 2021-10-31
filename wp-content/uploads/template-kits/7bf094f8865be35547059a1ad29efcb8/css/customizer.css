@@ -1,0 +1,73 @@
+.envato-kit-111-hvr-img-one .elementor-image {
+	position: relative;
+}
+
+.envato-kit-111-hvr-img-one .elementor-image:before {
+    position:  absolute;
+    content:  '';
+    background-color: rgba(34, 34, 34, 0.80);
+    width:  100%;
+    height: 50%;
+    left:  0;
+    top:  0;
+    transition:  .5s ease;
+    opacity:  0;
+    visibility:  hidden;
+}
+
+.envato-kit-111-hvr-img-one:hover .elementor-image:before {
+    height: 100%;
+    opacity:  1;
+    visibility:  visible;
+}
+
+
+/* Float Shadow */
+.envato-kit-111-hvr-float-shadow {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.envato-kit-111-hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+
+.envato-kit-111-hvr-float-shadow:hover, .envato-kit-111-hvr-float-shadow:focus, .envato-kit-111-hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.envato-kit-111-hvr-float-shadow:hover:before, .envato-kit-111-hvr-float-shadow:focus:before, .envato-kit-111-hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+.envato-kit-111-theme-color {
+  color: #e0162b;
+}
